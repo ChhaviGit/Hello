@@ -8,13 +8,18 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
+        <div style="text-align:center">
+            <asp:Label ID="lbltext" runat="server" >Demo App</asp:Label>
+            </div>
+        <div style="text-align:center">
+            <asp:PlaceHolder runat="server">
             <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
             <asp:RequiredFieldValidator ID="RequiredFieldValidator1" ValidateRequestMode="Disabled" ControlToValidate="TextBox1" runat="server" ErrorMessage="Required"></asp:RequiredFieldValidator>
             <br />
             <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
             <br />
             <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Button" />
+                </asp:PlaceHolder>
         </div>
     </form>
 </body>
