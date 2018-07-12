@@ -14,7 +14,7 @@
         <div style="text-align:center">
             <asp:PlaceHolder runat="server">
             <asp:TextBox ID="i_txt" runat="server"></asp:TextBox>
-            <asp:RequiredFieldValidator ID="RequiredFieldValidator1" ValidateRequestMode="Disabled" ControlToValidate="i_txt" runat="server" ErrorMessage="Required"></asp:RequiredFieldValidator>
+            <asp:RequiredFieldValidator ID="rfv" ValidateRequestMode="Disabled" ControlToValidate="i_txt" runat="server" ErrorMessage="Required"></asp:RequiredFieldValidator>
             <br />
             <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
             <br />
