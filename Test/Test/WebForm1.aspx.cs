@@ -16,8 +16,8 @@ namespace Test
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            TextBox2.Text = TextBox1.Text;
-            TextBox1.Text = "";
+            TextBox2.Text = i_txt.Text;
+            i_txt.Text = "";
         }
     }
 }
