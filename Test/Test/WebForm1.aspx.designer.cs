@@ -31,22 +31,22 @@ namespace Test {
         protected global::System.Web.UI.WebControls.Label lbltext;
         
         /// <summary>
-        /// i_txt control.
+        /// i_txt1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox i_txt;
+        protected global::System.Web.UI.WebControls.TextBox i_txt1;
         
         /// <summary>
-        /// RequiredFieldValidator1 control.
+        /// rfv control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator1;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfv;
         
         /// <summary>
         /// TextBox2 control.

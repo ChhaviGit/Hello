@@ -13,7 +13,7 @@
             </div>
         <div>
             <asp:PlaceHolder runat="server">
-            <asp:TextBox ID="i_txt" runat="server"></asp:TextBox>
+            <asp:TextBox ID="i_txt1" runat="server"></asp:TextBox>
             <asp:RequiredFieldValidator ID="rfv" ValidateRequestMode="Disabled" ControlToValidate="i_txt" runat="server" ErrorMessage="Required"></asp:RequiredFieldValidator>
             <br />
             <asp:TextBox ID="TextBox2" runat="server" Enabled="false"></asp:TextBox>
